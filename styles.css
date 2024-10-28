@@ -340,12 +340,13 @@ span {
     padding: 5rem 9%;
     background-color: #161616;
     color: white;
-    text-align: center;
+    text-align: justify;
 }
 
 .about h2 {
     font-size: 4rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .about p {
