@@ -1,42 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio Website</title>
 </head>
 <body>
     <header>
         <a href="#" class="logo">Portfolio</a>
-
         <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Contact</a>
+            <a href="#home"> Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+    
+    <section id="home" class="home">
         <div class="home-img">
             <img src="main.png" alt="">
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Aaron</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
-            <p>I aim to achieve professional satisfaction, career progression, and personal development by working in a learning environment that encourages growth and enriches my experience.</p>
+            <p>I aim to achieve professional satisfaction, career progression, and
+                personal development by working in a learning environment that
+                encourages growth and enriches my experience.</p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/aaron-willy/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/aaronwillyOG"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/AaronWillyOG"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/aaron.willy/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#" class="btn">Hire me</a>
+            <a href="#contact" class="btn">Hire me</a>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Aaron, a passionate software developer with a keen interest in leveraging machine learning to create innovative solutions. Currently, I specialize in web development, where I utilize technologies like HTML, CSS, JavaScript, and frameworks such as React to build dynamic and responsive web applications.
+
+            With a strong foundation in machine learning, I have honed my skills in algorithms, data analysis, and model development. My enthusiasm for coding and design drives me to continuously learn and improve, whether it’s exploring new libraries, enhancing my data science capabilities, or integrating AI solutions into web applications.
+            
+            When I’m not coding, you can find me hiking, reading, or exploring the latest trends in technology, which keeps me balanced and inspires my creativity. I believe in the power of technology to make a positive impact, and I’m excited about the future of AI and its applications in solving real-world problems.
+            
+            Looking ahead, I’m eager to collaborate on projects that challenge me and allow me to contribute meaningfully to my team and community.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>MongoDB</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>PyTorch</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Machine Learning / Deep Learning</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Django</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>AI-Powered Sustainability Dashboard for Green Logistics</h3>
+                <p>The AI-Powered Sustainability Dashboard for Green Logistics helps logistics companies reduce their environmental impact by optimizing operations and tracking carbon emissions in real time. It integrates AI, Blockchain, and Data Analytics to monitor fuel consumption, vehicle performance, and energy usage, providing actionable recommendations for eco-friendly practices like route optimization and energy-efficient vehicles.</p>
+                <br>
+                <p><b>Key Features</b></p>
+                <p><b>Real-time Carbon Tracking:</b> Monitors logistics data and pollution metrics.</p>
+                <p><b>AI Recommendations:</b> Suggests ways to reduce emissions and improve efficiency.</p>
+                <p><b>Blockchain Reporting:</b> Ensures transparent, tamper-proof records of sustainability efforts for compliance.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Data Breach Prevention</h3>
+                <p>The Privacy Tracking Alert Tool enhances online privacy and security for students by monitoring network traffic, detecting tracking attempts, and alerting users about potential data breaches.</p>
+                <br>
+                   <p><b>Key Features</b></p>
+                    <p><b>Data Leak Prevention:</b>
+                        Detects and blocks unauthorized data flows while offering encryption for sensitive information.</p>
+                    <p><b>Real-Time Network Traffic Analysis:</b>
+                        Analyzes live network traffic to identify suspicious behavior.</p>
+                    <p><b>Machine Learning Integration:</b>
+                        Classifies network traffic with machine learning for improved detection.</p>
+                    <p><b>Data Breach Alerts:</b>
+                        Notifies users if their information appears in data breach databases like "Have I Been Pwned."</p>
+                    <a href="#">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Orrery Web App</h3>
+                <p>This is an interactive web-based orrery that visualizes the orbits of celestial bodies, including planets, Near-Earth Asteroids (NEAs), Near-Earth Comets (NECs), and Potentially Hazardous Asteroids (PHAs). Using real-time NASA data, this educational tool will help users explore the solar system and understand celestial mechanics, built with Python and Flask for the backend and JavaScript (Three.js) for 3D rendering.</p>
+                <br>
+                <p><b>Key Features</b></p>
+                <p><b>Real-time Data Integration:</b> Fetch and display accurate positions and orbits of celestial bodies using NASA APIs.</p>
+                <p><b>Interactive Visualization:</b> Enable users to zoom, rotate, and navigate the solar system.</p>
+                <p><b>Orbital Path Visualization:</b> Show colored trajectories for each celestial body.</p>
+                <p><b>Timeline Control:</b> Allow users to adjust simulation speed and view positions over time.</p>
+                <a href="#">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="https://formspree.io/f/xvgozbon" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="request-resume">
+            <button id="request-resume-btn" class="btn">Request Resume</button>
+          
+            <!-- Hidden Form (dropdown) -->
+            <div id="resume-form" class="resume-form" style="display: none;">
+              <form id="resume-request-form" action="https://formspree.io/f/xrbgeaqn" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="hidden" name="request" value="Resume Request">
+                <button type="submit" class="btn">Submit Request</button>
+              </form>
+            </div>
+          </div>
+  
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
