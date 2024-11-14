@@ -304,10 +304,10 @@ span {
 }
 
 .typing-text span::after {
-    content: " ";
+    content: "";
     background-color: black;
     position: absolute;
-    width: calc(100% + 8px);
+    /* width: calc(100% + 8px); */
     height: 100%;
     border-left: 3px solid black;
     right: -8;
