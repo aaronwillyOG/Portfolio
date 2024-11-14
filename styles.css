@@ -214,6 +214,7 @@ section {
 
 span {
     color: #b74b4b;
+    text-shadow:  0 0 10px #b74b4b;
 }
 
 .home-content h3 {
@@ -497,6 +498,17 @@ section {
 section.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+footer {
+    background: #0b0b0b;
+    color: #ffffffc1;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* Responsive Design Adjustments */
